@@ -11,11 +11,15 @@
   "author": "Jean Tsai",
   "license": "MIT",
   "devDependencies": {
+    "css-loader": "^7.1.2",
+    "mini-css-extract-plugin": "^2.9.0",
     "servor": "^4.0.2",
+    "vue-loader": "^17.4.2",
     "webpack": "^5.92.1",
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "vue": "^3.4.31"
   }
 }
