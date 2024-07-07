@@ -1,10 +1,21 @@
 {
+  "name": "@jeantsai/webpack-starter",
+  "version": "1.0.0",
+  "description": "A empty webpack project",
+  "private": true,
   "scripts": {
-    "start": "servor --reload"
+    "start": "servor --reload",
+    "build": "webpack --config webpack.config.js"
   },
+  "keywords": [],
+  "author": "Jean Tsai",
+  "license": "MIT",
   "devDependencies": {
     "servor": "^4.0.2",
     "webpack": "^5.92.1",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
